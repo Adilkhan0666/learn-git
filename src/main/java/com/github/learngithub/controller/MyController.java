@@ -10,4 +10,9 @@ public class MyController {
     public String myName(){
         return  "Welcome to Github, Adil!";
     }
+
+    @RequestMapping("/hello-copy")
+    public String myNameCopy(){
+        return  "Welcome to Github, Adil!";
+    }
 }
