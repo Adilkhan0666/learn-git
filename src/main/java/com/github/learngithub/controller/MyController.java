@@ -11,5 +11,8 @@ public class MyController {
         return  "Welcome to Github, Adil!";
     }
 
+    public void hello(){
+        System.out.println("hello");
+    }
 
 }
