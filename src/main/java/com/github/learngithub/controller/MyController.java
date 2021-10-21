@@ -11,4 +11,9 @@ public class MyController {
         return  "Welcome to Github, Adil!";
     }
 
+    @RequestMapping("/hello")
+    public String newAPI(){
+        return  "Welcome to Github, Adil!";
+    }
+
 }
